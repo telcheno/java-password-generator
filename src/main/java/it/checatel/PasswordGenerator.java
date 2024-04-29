@@ -15,6 +15,7 @@ public class PasswordGenerator {
 		
 		System.out.println("Inserisci il tuo nome");
 		//dichiaro la variabile come "string" e assegno il valore di "scan"
+//		String nome = scan.nextLine();
 		String nome = scan.nextLine();
 		
 		System.out.println("Inserisci il tuo cognome");	
