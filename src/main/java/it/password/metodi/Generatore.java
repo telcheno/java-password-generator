@@ -9,13 +9,13 @@ public class Generatore {
 	int mese;
 	int anno;
 	
-	//creo il metodo per rigenerare la parte del testo della pasword
+	//creo il metodo per generare la parte del testo della pasword
 	String testoPassword() {
 		String testo = nome + "-" + cognome + "-" + colorePreferito + "-";
 		return testo;
 	}
 	
-	//creo il metodo per rigenerare la parte numerica della pasword
+	//creo il metodo per generare la parte numerica della pasword
 	int numeriPassword() {
 		int numeri = giorno + mese + anno;
 		return numeri;
